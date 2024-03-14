@@ -1,9 +1,10 @@
-## Flask API for Fetching User Data and Posts
+#### Flask API for Fetching User Data and Posts
 This Flask application serves as an API for fetching user data and posts from the Dummy API and storing them into a MySQL database. The application consists of the following endpoints:
 
 # 1. Root Endpoint (/):
 
-Method: GET/
+Method: GET
+
 Description: Returns a message indicating that the server is running.
 
 # 2. /getdata Endpoint:
