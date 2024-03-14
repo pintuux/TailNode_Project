@@ -1,25 +1,23 @@
-#### Flask API for Fetching User Data and Posts
+# Flask API for Fetching User Data and Posts
 This Flask application serves as an API for fetching user data and posts from the Dummy API and storing them into a MySQL database. The application consists of the following endpoints:
 
-# 1. Root Endpoint (/):
-
+## 1. Root Endpoint (/):
 Method: GET
 
 Description: Returns a message indicating that the server is running.
 
-# 2. /getdata Endpoint:
-
+## 2. /getdata Endpoint:
 Method: GET
+
 Description: Fetches user data from the Dummy API and inserts it into the TailNodeUser table in the MySQL database.
-/post Endpoint:
+## 3. /post Endpoint:
 
 Method: GET
-Description: Fetches user IDs from the TailnodeUser table in the MySQL database, then uses these IDs to fetch posts for each user from the Dummy API. The posts are inserted into the post table in the MySQL database. Tags associated with each post are also inserted into the tags table.
-Installation
-Clone the repository to your local machine:
 
-bash
-Copy code
+Description: Fetches user IDs from the TailnodeUser table in the MySQL database, then uses these IDs to fetch posts for each user from the Dummy API. The posts are inserted into the post table in the MySQL database. Tags associated with each post are also inserted into the tags table.
+
+## Installation
+Clone the repository to your local machine:
 git clone <repository_url>
 Install the required dependencies:
 
