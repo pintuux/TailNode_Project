@@ -19,17 +19,17 @@ Description: Fetches user IDs from the TailnodeUser table in the MySQL database,
 ## Installation
 Clone the repository to your local machine:
 
-git clone <repository_url>
+git clone "https://github.com/pintuux/TailNode_Project.git"
 
 # Install the required dependencies:
 
-1. pip install Flask requests mysql-connector-python
+1. ### pip install Flask requests mysql-connector-python
 
-2. Set up the MySQL database and update the config/db_config.py file with your MySQL database connection details.
+2. Set up the MySQL database and update the "config/db_config.py" file with your MySQL database connection details.
 
 3. Run the Flask application:
 
-python app.py
+### python app.py
 
 # Usage
 Access the API endpoints using the provided URLs (e.g., http://localhost:5000/getdata, http://localhost:5000/post) to fetch and store user data and posts.
