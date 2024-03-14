@@ -4,7 +4,7 @@ import mysql.connector
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Pintu@28',
+    'password': 'Your MySql Password',
     'database': 'Users'
 }
 # Connect to MySQL Database
