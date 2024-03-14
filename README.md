@@ -29,17 +29,17 @@ git clone "https://github.com/pintuux/TailNode_Project.git"
 
 3. Run the Flask application:
 
-### python app.py
+  ### python app.py
 
 # Usage
 Access the API endpoints using the provided URLs (e.g., http://localhost:5000/getdata, http://localhost:5000/post) to fetch and store user data and posts.
 
 ## Dependencies
-Flask: A lightweight web framework for Python.
+1. Flask: A lightweight web framework for Python.
 
-requests: A library for making HTTP requests.
+2. requests: A library for making HTTP requests.
 
-mysql-connector-python: A connector library for MySQL databases.
+3. mysql-connector-python: A connector library for MySQL databases.
 
 ## Contributors
 Pintu Kumar
